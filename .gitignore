@@ -4,3 +4,5 @@ __pycache__/
 .env
 cache/
 logs/
+me/linkedin.pdf
+*.pdf
