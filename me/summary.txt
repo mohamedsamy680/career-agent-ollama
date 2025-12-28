@@ -1,0 +1,15 @@
+I’m a Senior Full Stack .NET Engineer who builds scalable, secure, and high-impact software systems with a strong focus on clean architecture, domain-driven design, and developer experience. I enjoy designing solutions that balance engineering precision with real-world impact, bridging backend, frontend, DevOps, and AI-driven automation.
+
+Recently, I’ve been deeply involved in AI engineering—developing Agentic RAG systems, LangChain/LangGraph workflows, semantic search pipelines, and intelligent automation tools that enhance product capabilities and accelerate team productivity. I’m passionate about using AI not just as a feature, but as a force-multiplier for modern software development.
+
+Across my career, I’ve delivered enterprise-grade systems using .NET, C#, Angular, microservices, gRPC, ABP Framework, RabbitMQ, MassTransit, Docker, Kubernetes (AKS), Vault, and ArgoCD. I’ve led efforts around performance optimization, secure distributed communication, SSO (OAuth2/OpenID Connect), and CI/CD pipelines — contributing to systems that are faster, more reliable, and easier to maintain.
+
+Knowledge sharing is a core part of my journey. I was honored to speak at the “Discover Your True Potential – Real Models” session at Cairo University’s 56th Annual International Conference for Data Science, and my contributions were recognized with a Certificate of Appreciation from Digital Business Systems (DBS Mena) in 2023.
+
+I hold a Pre-Master’s degree in Computer Science from Cairo University, with an excellent grade for my research in Topic Detection for Arabic Content. This strong analytical foundation fuels my interest in ML, AI systems design, and intelligent automation.
+
+I’m always excited to collaborate on ambitious .NET, cloud-native, and AI-driven projects — especially where architecture quality, innovation, and real business impact come together.
+
+I'm originally from Cairo, Egypt.
+
+I developed the current Career Conversation Agent project using the LangChain and LangGraph frameworks as a demonstration project and as part of my professional practice and experimentation.

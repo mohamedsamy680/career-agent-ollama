@@ -1,0 +1,29 @@
+# Core LangChain and LangGraph dependencies
+langchain-classic==1.0.0
+langchain-community==0.4.1
+langchain-core==1.1.0
+langchain-huggingface==1.1.0
+langchain-openai==1.1.0
+langchain-text-splitters==1.0.0
+langgraph==1.0.3
+langgraph-checkpoint==3.0.1
+langgraph-prebuilt==1.0.5
+
+# OpenAI API
+openai==2.8.1
+
+# PDF processing
+pypdf==6.3.0
+
+# HTTP requests for Pushover SMS
+requests==2.32.5
+
+# Twilio SendGrad email
+sendgrid==6.12.5
+
+# Gradio for UI
+gradio==6.0.0
+gradio_client==2.0.0.dev3
+
+# Environment variables (optional, for local development)
+python-dotenv==1.2.1
