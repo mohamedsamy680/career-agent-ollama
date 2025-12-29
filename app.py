@@ -419,7 +419,7 @@ custom_css = """
 
 /* Header styling */
 .header-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
     padding: 2rem;
     border-radius: 10px;
     margin-bottom: 1.5rem;
@@ -473,6 +473,14 @@ custom_css = """
 
 .example-question:hover {
     background: #dee2e6;
+}
+
+/* Increase height of example question buttons */
+.example-questions button {
+    min-height: 3.5rem;
+    padding: 0.875rem 1rem !important;
+    font-size: 0.95rem !important;
+    line-height: 1.4 !important;
 }
 
 /* Chatbot enhancements */
@@ -629,7 +637,7 @@ with gr.Blocks(
                         AI-Powered Career Conversation Agent
                     </p>
                     <p style="margin: 0.5rem 0 0 0; font-size: 0.9rem; opacity: 0.85;">
-                        Ask me about my background, skills, experience, or projects
+                        Ask me about my background, work experience, skills, or projects
                     </p>
                 </div>
                 """
@@ -644,9 +652,9 @@ with gr.Blocks(
                 gr.HTML(
                     f"""
                     <div class="profile-card">
-                        <h3 style="margin: 0 0 0.5rem 0; color: #667eea; font-size: 1.2rem;">📋 Profile Summary</h3>
+                        <h3 style="margin: 0 0 0.5rem 0; color: #ff6b35; font-size: 1.2rem;">📋 Profile Summary</h3>
                         <p style="margin: 0; color: #495057; font-size: 0.9rem; line-height: 1.5;">
-                            {SUMMARY_TEXT[:200] + "..." if len(SUMMARY_TEXT) > 200 else SUMMARY_TEXT}
+                            {SUMMARY_TEXT[:37] + "..." if len(SUMMARY_TEXT) > 37 else SUMMARY_TEXT}
                         </p>
                     </div>
                     """
@@ -656,8 +664,8 @@ with gr.Blocks(
             stats_display = gr.HTML(
                 """
                 <div class="stats-card">
-                    <h3 style="margin: 0 0 0.5rem 0; color: #667eea; font-size: 1.1rem;">📊 Conversation Stats</h3>
-                    <div style="font-size: 1.5rem; font-weight: bold; color: #667eea;">0 messages</div>
+                    <h3 style="margin: 0 0 0.5rem 0; color: #ff6b35; font-size: 1.1rem;">📊 Conversation Stats</h3>
+                    <div style="font-size: 1.5rem; font-weight: bold; color: #ff6b35;">0 messages</div>
                 </div>
                 """
             )
@@ -672,19 +680,19 @@ with gr.Blocks(
                     """
                 )
                 example_questions = [
-                    "What's your background?",
-                    "Tell me about your skills",
-                    "What is the name of the company you currently work for?",
-                    "What projects have you worked on?",
-                    "What's your experience with AI?",
-                    "Did you build any AI agents?"
+                    "What do you do, and where do you work?",
+                    "What's your experience?",
+                    "Do you have any certificates?",
+                    "What tools and technologies do you usually work with?",
+                    "Do you incorporate any AI tools into your day-to-day work?",
+                    "Have you worked on building AI agents?"
                 ]
                 example_btns = []
                 for q in example_questions:
                     btn = gr.Button(
                         q,
                         variant="secondary",
-                        size="sm",
+                        size="lg",
                         scale=1
                     )
                     example_btns.append(btn)
